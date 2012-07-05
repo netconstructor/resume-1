@@ -15,6 +15,10 @@ jQuery( document ).ready( function($) {
 			    	return true;
 		    	}
 		    	
+		    	//set document title
+		    	if ( key == 'name' )
+		    		document.title = value;
+		    	
 		    	//everything else abstractly
 		    	if ( $('#' + key) )
 		    		$('#' + key).html( value );
