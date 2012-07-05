@@ -1,0 +1,51 @@
+.resume {background: white; }
+
+/* Post Title */
+.resume.hide-title .entry-title {display:none;}
+
+/* Resume-theme fixes */
+.page-id-12 #content {width: 100%; margin: 0px;}
+.page-id-12 #main {padding: 0;}
+.resume .entry-content {width: 100%; margin-top: -5px; padding-top: 0; }
+.resume {margin: 0 !important; padding: 0 !important;}
+.resume .edit-link {display:none !important;}
+.resume .sharing {display:none !important; }
+
+/* Resume */
+.resume {margin:0; font-size:12px; color: #000; padding-right: 50px !important;}
+.resume a {text-decoration: none; color: #757575;}
+.resume #bar {background: #ccc; width: 160px; position: absolute; z-index: 0; border-right: 3px solid black; height:1000px;}
+
+/* Header */
+.resume header {text-align:center; margin-bottom: 25px; background: none; width:83%; padding: 0 0 0 160px;}	
+.resume header h2 { font-size: 64px; letter-spacing: 2px; font-weight: bold; background: none; margin:0 !important; font-family: Garamond, Georgia, serif; padding-top: 38px;}
+.resume header ul {list-style: none; padding: 0px; margin: 0}
+.resume header ul li {display: inline; padding: 0 50px 0 50px; margin-bottom:0px; text-transform: lowercase;}
+.resume header h2 a {text-decoration: none; color: #000;}
+.resume header a {text-decoration: none; color: #757575;}
+
+/* Summary */
+.resume summary { margin-bottom: 15px; padding-left: 180px;}
+
+/* Sections */
+.resume section {margin-bottom:20px; }
+.resume section header { text-transform: lowercase; text-align:right; width:140px;  height: 1em; position: relative; z-index:1000; height: 1px; font-size: 16px; padding: 0px; float:left;}
+
+/* Blocks */
+.resume article { margin-bottom: 20px; }
+.resume article ul {clear:both; text-align:justify; padding-left:16px; list-style-type:square; margin:0 !important;}
+.resume article header {border: 0; width: 100%;}
+.resume article section {margin-bottom: 5px;}
+.resume .orgName {float: left; font-size: 16px; text-transform: none;}
+.resume .location {float:right; color: #aaa; font-size: 12px; text-transform: none;}
+.resume .title {font-style: italic; float:left; clear:left;  font-size: 14px; line-height:18px; text-transform: none;}
+.resume .date {float:right; color: #aaa; clear:right; font-size: 12px; line-height: 12px;}
+.resume details {clear: both; text-align: justify; margin-bottom: 10px; font-size: 12px; }
+.resume details ul {padding-top: 5px;}
+.resume .organization, .resume article {margin-left:180px;}
+.resume .organization details, .resume organization .title {margin:0;}
+.resume .organization details { width: 100%;}
+.resume details .post-edit-link {float:right; display: none; padding-left: 10px; margin-top: -2em;}
+.resume .organization:hover .post-edit-link {display:inline;}
+
+.blanks {display:none;}
